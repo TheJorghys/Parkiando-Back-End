@@ -1,0 +1,15 @@
+{
+  "name": "parkiando-back-end",
+  "version": "1.0.0",
+  "workspaces":[
+    "parkiando-api"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start:api": "npm run start --workspace=parkiando-api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
